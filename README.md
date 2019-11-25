@@ -22,11 +22,12 @@ Run this system by switching to ```Scripts``` directory and using ```sh Pipeline
 | Filename | Description |
 | ---- | :--- |
 |```run.sh```|main script|
-|```assignHost.py```|generate ...|
+|```assignHost.py```|report number of connection for a taxonomic group wiht leaves of a given node in the tree  |
+|```rrrr.R```|test for connetion enrichement for a given taxonomic group at a given node in the tree|
 
 ## Authors
 
-* **Yanze Li**  - yanzeli@kuicr.kyoto-u.ac.jp
+* **Romain Blanc-Mathieu**  - romain.blancmathieu@gmail.com
 
 ## References
 Blanc-Mathieu R, Kaneko H, Endo H, Chaffron S, Hernández-Velázquez R, Nguyen CH, Mamitsuka H, Henry N, Vargas C de, Sullivan MB, et al. 2019. Viruses of the eukaryotic plankton are predicted to increase carbon export efficiency in the global sunlit ocean. bioRxiv:710228.
