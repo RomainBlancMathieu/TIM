@@ -13,7 +13,7 @@ Please install these softwares and add their directories to the ```PATH``` envir
 * [R](https://www.r-project.org/)
 
 ## Usage
-Run this system by switching to ```Scripts``` directory and using ```sh Pipeline.sh``` or ```./Pipeline.sh```.
+TIM runs in two main steps corresponding to scripts ```run.sh``` and ```run.py```.
 * ```-maindir MAIN_DIR``` : Path of main directory, which should at least contain ```Scripts``` directory and ```References``` directory<br>
 
 
@@ -24,6 +24,7 @@ Run this system by switching to ```Scripts``` directory and using ```sh Pipeline
 |```run.sh```|main script|
 |```assignHost.py```|report number of connection for a taxonomic group wiht leaves of a given node in the tree  |
 |```rrrr.R```|test for connetion enrichement for a given taxonomic group at a given node in the tree|
+|```addFeaturesToTreeNode.py```|add node ID to the tree used by assignHost. Can be use to visualized the results on ITOL|
 
 ## Authors
 
