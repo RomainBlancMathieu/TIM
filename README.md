@@ -36,15 +36,14 @@ Results are in the directory ```myTIMrun``` <br />
 For ```main.py```:<br />
 &nbsp;&nbsp;```allNodesCounts.txt```: Contains count of connections for a given ```subject``` and ```query``` at a given node. <br />
 &nbsp;&nbsp;```taxaNotInNCBI.txt``` : list of taxa's name in your connection file that were not found in the NCBI taxonomy <br />
-&nbsp;&nbsp;```NODES``` contains details per visited node
+&nbsp;&nbsp;```NODES``` contains details for ecach visited node. <br />
 For ```downstream.py```:  <br />
 In ```myTIMrun/downstream```: <br />
-&nbsp;&nbsp;The two following files belwo can be use to visualize TIM results on ITOL:
-&nbsp;&nbsp;&nbsp;&nbsp;```PIECHART_ITOL.txt```: node with enriched connections towards a group of organism (Q<0.05 by default)
-&nbsp;&nbsp;&nbsp;&nbsp;```treeWithNodeID_forItolPlot.nwk```: the tree you input with node ID added.
+&nbsp;&nbsp;The two following files belwo can be use to visualize TIM results on ITOL:<br />
+&nbsp;&nbsp;&nbsp;&nbsp;```PIECHART_ITOL.txt```: node with enriched connections towards a group of organism (Q<0.05 by default).<br />
+&nbsp;&nbsp;&nbsp;&nbsp;```treeWithNodeID_forItolPlot.nwk```: the tree you input with node ID added.<br />
 
-## List of reference and script files
-### Scripts
+## Scripts
 | Filename | Description |
 | ---- | :--- |
 |```main.py```|report number of connection for a taxonomic group wiht leaves in the tree|
@@ -53,8 +52,8 @@ In ```myTIMrun/downstream```: <br />
 |```formatForItolPieChart.py```|format files to plot results on Itol|
 |```addFeaturesToTreeNode.py```|add node ID to the tree used by assignHost. Can be use to visualized the results on ITOL|
 
-## Authors
-* **Romain Blanc-Mathieu**  - romain.blancmathieu@gmail.com
+## Contact
+* **Romain Blanc-Mathieu**  - romain.blancmathieu[@]gmail.com
 
 ## References
 Blanc-Mathieu R*, Kaneko H*, Endo H, Chaffron S, Hernández-Velázquez R, Nguyen CH, Mamitsuka H, Henry N, Vargas C de, Sullivan MB, et al. 2019. Viruses of the eukaryotic plankton are predicted to increase carbon export efficiency in the global sunlit ocean. bioRxiv:710228.
