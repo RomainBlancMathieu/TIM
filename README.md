@@ -46,11 +46,11 @@ In ```myTIMrun/downstream```: <br />
 ## Scripts
 | Filename | Description |
 | ---- | :--- |
-|```main.py```|report number of connection for a taxonomic group wiht leaves in the tree|
-|```downstream.py```|filters out the output of ```main.py``` and prepare ITOL formated files for visualization|
+|```main.py```|report number of connections between leaves in the tree and a taxonomic group (NCBI order rank) |
+|```downstream.py```|filters out the output of ```main.py``` and prepare files for visualization with iTOL|
 |```filt_form.R```|used by ```downstream.py``` for filtering and files formating|
-|```formatForItolPieChart.py```|format files to plot results on Itol|
-|```addFeaturesToTreeNode.py```|add node ID to the tree used by assignHost. Can be use to visualized the results on ITOL|
+|```formatForItolPieChart.py```|formats files to plot results on iTOL|
+|```addFeaturesToTreeNode.py```|add node ID to the tree for iTOL visualization|
 
 ## Contact
 * **Romain Blanc-Mathieu**  - romain.blancmathieu[@]gmail.com
