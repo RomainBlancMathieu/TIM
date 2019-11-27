@@ -25,7 +25,7 @@ The TIM pipeline needs two inputs: <br />
 
 ## Usage
 TIM runs in two main steps scripts: <br />
-```main.py``` will ... <br />
+```main.py tree.nwk connections.tsv [ALL, POS, NEG]``` will ... <br />
 ```downstream.py``` ... <br />
 
 
