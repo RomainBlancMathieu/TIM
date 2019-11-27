@@ -13,9 +13,9 @@ Please install these softwares and add their directories to the ```PATH``` envir
 
 ### Inputs files
 
-The TIM pipeline needs two inputs <br />
-&nbsp;&nbsp;&nbsp;A phylogenetic tree for the ```query``` <br /> 
-&nbsp;&nbsp;&nbsp;A table file containing connection between ```query``` and ```subject``` with follwing tab separated columns:<br />
+The TIM pipeline needs two inputs: <br />
+* A phylogenetic tree for the ```query``` <br /> 
+* A table file containing connection between ```query``` and ```subject``` with follwing tab separated columns:<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Query ID (same as leaves's names in the tree) <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Subject ID <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Direction of connections (typically the weight, positive or neagtive, in a co-occurence-based network) <br />
@@ -24,17 +24,17 @@ The TIM pipeline needs two inputs <br />
 
 
 ## Usage
-TIM runs in two main steps corresponding to scripts ```run.sh``` and ```run.py```.
-* ```-maindir MAIN_DIR``` : Path of main directory, which should at least contain ```Scripts``` directory and ```References``` directory<br>
+TIM runs in two main steps corresponding to scripts ```main.py``` and ```downstream.py```. <br />
 
 
 ## List of reference and script files
 ### Scripts
 | Filename | Description |
 | ---- | :--- |
-|```run.sh```|main script|
-|```assignHost.py```|report number of connection for a taxonomic group wiht leaves of a given node in the tree  |
-|```rrrr.R```|test for connetion enrichement for a given taxonomic group at a given node in the tree|
+|```main.py```|report number of connection for a taxonomic group wiht leaves in the tree|
+|```taxo_functions.py```|function for taxonomy|
+|```downstream.py```|filters out the output of ```main.py``` and prepare ITOL formated files for visualization|
+|```filt_form.R```|used by ```downstream.py``` for filtering and files formating|
 |```addFeaturesToTreeNode.py```|add node ID to the tree used by assignHost. Can be use to visualized the results on ITOL|
 
 ## Authors
