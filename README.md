@@ -11,7 +11,7 @@ Please install these softwares and add their directories to the ```PATH``` envir
 * [Python 2.7.11 or greater](https://www.python.org/downloads/release/python-2711/)
 * [R](https://www.r-project.org/)
 
-### Inputs files
+### Input files
 
 The TIM pipeline needs two inputs: <br />
 * A phylogenetic tree for the ```query``` <br /> 
@@ -28,6 +28,8 @@ TIM runs in two main steps scripts: <br />
 ```main.py tree.nwk connections.tsv [ALL, POS, NEG]``` will ... <br />
 ```downstream.py``` ... <br />
 
+## Output files
+taxaNotInNCBI.txt : list taxa's name in your connection file that were not found in the NCBI taxonomy <br />
 
 ## List of reference and script files
 ### Scripts
