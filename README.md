@@ -16,15 +16,17 @@ Please install these softwares and add their directories to the ```PATH``` envir
 The TIM pipeline needs two inputs: <br />
 * A phylogenetic tree for the ```query``` <br /> 
 * A table file containing connection between ```query``` and ```subject``` with follwing tab separated columns:<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Query ID (same as leaves's names in the tree) <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Subject ID <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Direction of connections (typically the weight, positive or neagtive, in a co-occurence-based network) <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P-value (facultative can be NA if you pre-filtred the connections) <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Genealogy of the subject ID (ideally in NCBI taxonomy terms, if a taxomic name is not found the tool will report it) <br />
+&nbsp;&nbsp;Query ID (same as leaves's names in the tree) <br />
+&nbsp;&nbsp;Subject ID <br />
+&nbsp;&nbsp;Direction of connections (typically the weight, positive or neagtive, in a co-occurence-based network) <br />
+&nbsp;&nbsp;P-value (facultative can be NA if you pre-filtred the connections) <br />
+&nbsp;&nbsp;Genealogy of the subject ID (ideally in NCBI taxonomy terms, if a taxomic name is not found the tool will report it) <br />
 
 
 ## Usage
-TIM runs in two main steps corresponding to scripts ```main.py``` and ```downstream.py```. <br />
+TIM runs in two main steps scripts: <br />
+```main.py``` will ... <br />
+```downstream.py``` ... <br />
 
 
 ## List of reference and script files
