@@ -13,14 +13,14 @@ Please install these softwares and add their directories to the ```PATH``` envir
 
 ### Inputs files
 
-The TIM pipeline needs two inputs
-A phylogenetic tree for the ```query```
-A table file containing connection between ```query``` and ```subject``` with follwing tab separated columns:
- Query ID (same as leaves's names in the tree)
- Subject ID 
- Direction of connections (typically the weight, positive or neagtive, in a co-occurence-based network)
- P-value (facultative can be NA if you pre-filtred the connections)
- Genealogy of the subject ID (ideally in NCBI taxonomy terms, if a taxomic name is not found the tool will report it)
+The TIM pipeline needs two inputs <br />
+A phylogenetic tree for the ```query``` <br /> 
+A table file containing connection between ```query``` and ```subject``` with follwing tab separated columns:<br />
+ Query ID (same as leaves's names in the tree) <br />
+ Subject ID <br />
+ Direction of connections (typically the weight, positive or neagtive, in a co-occurence-based network) <br />
+ P-value (facultative can be NA if you pre-filtred the connections) <br />
+ Genealogy of the subject ID (ideally in NCBI taxonomy terms, if a taxomic name is not found the tool will report it) <br />
 
 
 ## Usage
