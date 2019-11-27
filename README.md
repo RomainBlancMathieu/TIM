@@ -13,6 +13,11 @@ TIM tests for enrichement of connection between query and subject at the order l
 * [Python 2.7.11 or greater](https://www.python.org/downloads/release/python-2711/)
 * [R](https://www.r-project.org/)
 
+## Usage
+TIM runs in two main steps scripts: <br />
+```main.py tree.nwk connections.tsv [ALL, POS, NEG]``` <br />
+```downstream.py``` <br />
+
 ## Input files
 * A phylogenetic tree (newick formated) for the ```query``` <br /> 
 * A table file containing network connections between ```query``` and ```subject``` with follwing tab separated columns: <br />
@@ -22,19 +27,14 @@ TIM tests for enrichement of connection between query and subject at the order l
 &nbsp;&nbsp;P-value (facultative can be NA if you pre-filtred the connections) <br />
 &nbsp;&nbsp;Genealogy of the subject ID (Must be NCBI taxonomic terms. If a taxomic name is not found the tool will report it) <br />
 
-### Example of input files: <br />
-```Picornavirales_TaraOcean.nwk``` a phylogenetic tree for Picornavirales viruses containing Tara Oceans and reference sequences <br />
+#### Example of input files: <br />
+```Picornavirales.nwk``` a phylogenetic tree for Picornavirales viruses containing Tara Oceans and reference sequences <br />
 ```connections.txt```FlashWeave Inferred associations between Picornavirales and Eukaryotes based on Tara Oceans samples<br />
-
-## Usage
-TIM runs in two main steps scripts: <br />
-```main.py tree.nwk connections.tsv [ALL, POS, NEG]``` <br />
-```downstream.py``` <br />
 
 ## Output files
 Results are in the directory ```myTIMrun``` <br />
 For ```main.py```:<br />
-&nbsp;&nbsp;```allNodesCounts.txt```: This is the main result file. It contains count of connections for a given ```subject``` and ```query``` at a given node of the tree. <br />
+&nbsp;&nbsp;```allNodesCounts.txt```: Contains count of connections for a given ```subject``` and ```query``` at a given node. <br />
 &nbsp;&nbsp;```taxaNotInNCBI.txt``` : list of taxa's name in your connection file that were not found in the NCBI taxonomy <br />
 &nbsp;&nbsp;```NODES``` contains details per visited node
 For ```downstream.py```:  <br />
