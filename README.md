@@ -14,7 +14,7 @@ TIM tests for enrichement of connection between query and subject at the order l
 * [R](https://www.r-project.org/)
 
 ## Usage
-TIM runs in two main steps scripts: <br />
+TIM runs in two main steps: <br />
 ```main.py tree.nwk connections.tsv [ALL, POS, NEG]``` <br />
 ```downstream.py``` <br />
 
