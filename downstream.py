@@ -12,6 +12,6 @@ def moulinette(METHOD):
 	os.system("mv PIECHART_ITOL.txt myTIMrun/downstream/.")
 	os.system("mv correctedPvalues.txt plotItol_node_* itol_node_* myTIMrun/downstream/others/.")
 	os.system("rm inputForPieChart.txt tmpHeaderItol.txt")
-        os.system("scripts/addFeaturesToTreeNode.py Picornavirales_TaraOcean.nwk")
+        os.system("scripts/addFeaturesToTreeNode.py Picornavirales.nwk")
 	os.system("mv treeWithNodeID_forItolPlot.nwk myTIMrun/downstream/.")
 moulinette("BH")
